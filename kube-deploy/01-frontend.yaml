@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: company-portal-frontendcontainer
-        image: docker.io/sureshtamizan/company-portal-frontend:v99
+        image: docker.io/sureshtamizan/company_portal_frontend:2.0.0
         imagePullPolicy: Always
         ports:
         - containerPort: 8081
